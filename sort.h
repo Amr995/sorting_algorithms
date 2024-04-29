@@ -14,9 +14,9 @@
  */
 typedef struct listint_s
 {
-        int n;
-        struct listint_s *prev;
-        struct listint_s *next;
+	int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 
@@ -38,4 +38,3 @@ void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 
 #endif
-
