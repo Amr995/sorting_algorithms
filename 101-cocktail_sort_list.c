@@ -57,5 +57,6 @@ void cocktail_sort_list(listint_t **list)
 				check = check->prev;
 		}
 		first = check;
-	} while (first != last);
+	}
+	while (first != last);
 }
